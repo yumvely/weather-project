@@ -36,15 +36,35 @@ body {
     /* justify-content: space-between; */
 }
 
-.search-text {
-    font-size: 22px;;
-    color: white;
-    margin-left: 10px;
+.bar:focus {
+    background-color: #FFFFFF;
 }
+
+input {
+    font-size: 20px;
+    /* font-weight: 500; */
+    color: black;
+    margin-left: 10px;
+    border: 0;
+    background-color: transparent;
+    width: 643px;
+}
+
+input::placeholder {
+    color: #FFFFFF;
+}
+
+input:focus {
+    outline: none;
+}
+
 
 .search-btn {
     position: absolute;
     left: 670px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .box {
