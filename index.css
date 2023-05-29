@@ -4,13 +4,21 @@ body {
     background-size: cover;
 }
 
+header {
+    height: 90px;
+}
+
+#h-logo {
+    height: 90px;
+}
 #logo {
     object-fit: contain;
 }
 
 #container {
-    margin : auto;
-    width: 1000px;
+    margin : 0 auto;
+    /* width: 75%; */
+    max-width: 70rem;
 }
 
 #location {
@@ -73,6 +81,9 @@ input:focus {
 }
 
 .temp-box {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
     width: 350px;
     height: 350px;
     text-align: center;
@@ -95,6 +106,7 @@ input:focus {
 .nav-btn {
     width: 100px;
     height: 100px;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,21 +122,46 @@ nav {
     align-items: center;
 }
 
+.nav-text {
+    position: absolute;
+    bottom: 15px;
+}
+
+nav > a:nth-child(1) > div > img {
+    position: absolute;
+    top: 10px;
+}
+
+nav > a:nth-child(2) > div > img {
+    position: absolute;
+    top: 3px;
+}
+
+nav > a:nth-child(3) > div > img {
+    position: absolute;
+    top: 7px;
+}
+
+nav > a:nth-child(4) > div > img {
+    position: absolute;
+    top: 8px;
+}
+
 .fortune-box {
     width: 350px;
     height: 100px;
     margin-top: 20px;
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* padding: 5px; */
-    /* align-content: center; */
+    align-items: center;
 }
 
 .temp {
     font-size: 45px;
     font-weight: 600;
-    /* margin-top: 25px; */
+    margin-top: 25px;
 }
 
 .temp-sensory {
@@ -150,11 +187,12 @@ nav {
 }
 
 .fortune-text {
+    padding-top: 50px;
     width: 250px;
     height: 100px;
     display: flex;
     flex-direction: column;
-    /* align-content: center; */
+    align-items: center;
 }
 
 #fortune-title {
@@ -164,4 +202,8 @@ nav {
 
 #fortune {
     margin-top: 12px;
+}
+
+#fairy {
+    margin-left: 15px;
 }
