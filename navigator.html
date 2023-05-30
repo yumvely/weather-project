@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>날씨어때</title>
+    <!--<link rel="favicon" href="img/favicon/favicon.ico">-->
+    <link rel="icon" href="img/fairy.png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+<style>
+body {
+    height: 100vh;
+    background: url('img/sunny.jpg') no-repeat center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    /* justify-content: space-around; */
+    align-content: space-around;
+}
+
+.nav-btn {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav-btn:hover {
+    background: #FFFFFF;
+}
+
+.nav-text {
+    position: absolute;
+    bottom: 15px;
+}
+
+nav > a:nth-child(2) > div > img {
+    position: absolute;
+    top: 10px;
+}
+
+nav > a:nth-child(3) > div > img {
+    position: absolute;
+    top: 3px;
+}
+
+nav > a:nth-child(4) > div > img {
+    position: absolute;
+    top: 7px;
+}
+
+nav > a:nth-child(5) > div > img {
+    position: absolute;
+    top: 8px;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+</style>
+
+<body>
+    <div id="wrap">
+    <nav>
+        <a href="test.html">
+            <div class="box nav-btn">
+                    <img src="img/clock.png" alt="시간별 날씨 아이콘" width="45px">
+                    <p class="nav-text">HOME</p>
+            </div>
+        </a>
+        <a href="test.html">
+            <div class="box nav-btn">
+                    <img src="img/clock.png" alt="시간별 날씨 아이콘" width="45px">
+                    <p class="nav-text">시간별 날씨</p>
+            </div>
+        </a>
+        <a href="test.html">
+            <div class="box nav-btn">
+                <img src="img/map.png" alt="시간별 날씨 아이콘" width="65px">
+                <p class="nav-text">전국 날씨</p>
+            </div>
+        </a>
+        <a href="test.html">
+            <div class="box nav-btn">
+                <img src="img/cloth.png" alt="시간별 날씨 아이콘" width="50px">
+                <p class="nav-text">오늘의 스타일</p>
+            </div>
+        </a>
+        <a href="test.html">
+            <div class="box nav-btn">
+                <img src="img/spot.png" alt="시간별 날씨 아이콘" width="49px">
+                <p class="nav-text">오늘의 스팟</p>
+            </div>
+        </a>
+    </nav>
+</div>
