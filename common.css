@@ -1,0 +1,16 @@
+.msb{
+    width:200px;
+    height:100%;
+    position:fixed;
+    left:60px;
+    top:320px;
+    
+}
+.navbar li {
+     margin-bottom: 10px;
+}
+.nav-btn img {
+    margin-top:10px;
+    margin-bottom:7px;
+}
+
