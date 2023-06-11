@@ -3,6 +3,14 @@
     padding-top: 20px;
 	overflow: hidden;
 	box-sizing: border-box;
+    padding-left:20px;
+}
+
+.detail-style-content{
+    padding-top: 20px;
+	overflow: hidden;
+	box-sizing: border-box;
+    padding-left:80px;
 }
 
 .nav-icon{
@@ -17,12 +25,12 @@
 .icon-btn-list img{
     width: 26px;
     height: 26px;
-    left: 7px;
+    left: 5px;
 }
 
 .icon-btn{
     display: inline-block;
-    width: 80px;
+    width: 73px;
     height: 37px;   
     cursor:pointer;
 }
@@ -54,17 +62,17 @@
     justify-content: center;
   }
 
-  .detail-today-style img{
-    width: 645px;
-    height: 310px;
-    padding-top: 10px;
-  }
-
   .detail-style-box{
-    width: 680px;
+    width: 620px;
     height: 330px;
     text-align: center;
     /* padding-top: 10px;*/
+  }
+
+  .detail-today-style img{
+    width: 600px;
+    height: 310px;
+    padding-top: 10px;
   }
 
   .style-link{
@@ -90,7 +98,7 @@
   }
 
   .right-content{
-    width:300px;
+    width:240px;
   }
 
   .style-temp-box {

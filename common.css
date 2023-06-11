@@ -14,3 +14,65 @@
     margin-bottom:7px;
 }
 
+body {
+    height: 100vh;
+    background: url('img/sunny.jpg') no-repeat center;
+    background-size: cover;
+}
+/*
+nav {
+    display: inline-flex;
+    flex-direction: column;
+    width: 150px;
+    height: 70vh;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    /* justify-content: space-around; */
+   /* align-content: space-around;
+}*/
+
+.nav-btn {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav-btn:hover {
+    background: #FFFFFF;
+}
+
+.nav-text {
+    position: absolute;
+    bottom: 15px;
+}
+
+nav > a:nth-child(2) > div > img {
+    position: absolute;
+    top: 10px;
+}
+
+nav > a:nth-child(3) > div > img {
+    position: absolute;
+    top: 3px;
+}
+
+nav > a:nth-child(4) > div > img {
+    position: absolute;
+    top: 7px;
+}
+
+nav > a:nth-child(5) > div > img {
+    position: absolute;
+    top: 8px;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
