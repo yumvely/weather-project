@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>날씨어때</title>
+    <!--<link rel="favicon" href="img/favicon/favicon.ico">-->
+    <link rel="icon" href="img/fairy.png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div>
+                <a href="index.html"><img id="logo" src="img/logo.png" alt="로고" width="220"></a>
+            </div>
+        </header>
+         <!--navigator S-->
+         <div class="msb">
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <div class="box nav-btn">
+                                <img src="img/home.png" alt="홈 아이콘" width="45px">
+                                <p class="nav-text">HOME</p>
+                            </div>
+                        </a>   
+                    </li> 
+                    <li>
+                        <a href="test.html">
+                            <div class="box nav-btn">
+                                <img src="img/clock.png" alt="시간별 날씨 아이콘" width="45px">
+                                <p class="nav-text">시간별 날씨</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="test.html">
+                            <div class="box nav-btn">
+                                <img src="img/map.png" alt="전국 날씨 아이콘" width="65px">
+                                <p class="nav-text">전국 날씨</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="test.html">
+                            <div class="box nav-btn">
+                                <img src="img/cloth.png" alt="오늘의 스타일 아이콘" width="50px">
+                                <p class="nav-text">오늘의 스타일</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="test.html">
+                            <div class="box nav-btn">
+                                <img src="img/spot.png" alt="오늘의 스팟 아이콘" width="49px">
+                                <p class="nav-text">오늘의 스팟</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--navigator E-->
+        <!--container S-->
+        <div id="container">
+            <div id="location">
+                <span>서울시 강남구 논현동</span> <!--임시-->
+            </div>
+            <div id="search_bar">
+                <div class="bar">
+                    <input type="text" placeholder="지역을 검색해 주세요">
+                    <button class="search-btn">
+                        <img src="img/fairy_half.png" alt="날씨요정" width="37px">
+                    </button>
+                </div>
+            </div>
+            <div id="content-box"> 
+                <div class="detail-style-content">
+                    <div class="detail-today-style">
+                        <div class="box detail-style-box">
+                            <img src="img/style1.png" />
+                        </div>
+                    </div>
+                    <div class="style-link">
+                        <a href="test.html">
+                            <div class="link-btn">
+                                    <img src="img/cardicon.png" alt="상품링크1">
+                            </div>
+                        </a>
+                        <a href="test.html">
+                            <div class="link-btn">
+                                <img src="img/t-shirt1.png" alt="상품링크2">
+                            </div>
+                        </a>
+                        <a href="test.html">
+                            <div class="link-btn">
+                                <img src="img/pants.png" alt="상품링크3">
+                            </div>
+                        </a>
+                        <a href="test.html">
+                            <div class="link-btn">
+                                <img src="img/shoes.png" alt="상품링크4">
+                            </div>
+                        </a>
+                        <a href="test.html">
+                            <div class="link-btn">
+                                <img src="img/bag.png" alt="상품링크5">
+                            </div>
+                        </a>
+                    </div>                   
+                </div>
+                <!--container E-->
+                <!--right-content S-->
+                <div class="right-content">
+                    <div class="nav-icon">
+                        <ul class="icon-btn-list">
+                            <li class="icon-btn">
+                                <a href="#back"><img src="img/back.png" alt="뒤로가기"></a>
+                            </li>                          
+                            <li class="icon-btn">
+                                <a href="#profile"><img src="img/profile.png" alt="성별">성별</a>
+                            </li>
+                            <li class="icon-btn">
+                                <a href="#position"><img src="img/position.png" alt="내주변">내주변</a>
+                            </li>     
+                        </ul>       
+                    </div>            
+                    <div class="box style-temp-box">
+                        <div id="weather">
+                            <img src="img/sun.png" alt="날씨" width="75px">
+                        </div>
+                        <div class="temp-text">
+                            <div id="temperature">13.9 ℃</div>
+                            <div id="temp-feel">"체감(15.4 ℃)"</div>
+                        </div>
+                    </div>
+                </div>
+                <!--right-content E-->
+            </div>
+        </div>
+        <!--container E-->
+    </div>
+</body>
+</html>
+
