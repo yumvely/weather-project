@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>날씨어때</title>
+    <!--<link rel="favicon" href="img/favicon/favicon.ico">-->
+    <link rel="icon" href="img/fairy.png" type="image/x-icon">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="spotPopup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="popup_wrap">
+        <div id="pop-container">
+            <div id="filter_title">조건검색</div>
+                <!--1. 날씨선택-->
+                <div class="filter-weather">
+                    <label class="filter-sun">
+                        <img src="img/sun.png" alt="맑음" width="37px">
+                        <input type="radio" name="날씨선택" value="select-sun">
+                    </label>
+                    <label class="filter-rain">
+                        <img src="img/rain.png" alt="비" width="37px">
+                        <input type="radio" name="날씨선택" value="select-rain">
+                    </label>
+                    <label class="filter-snow">
+                        <img src="img/snow.png" alt="눈" width="37px">
+                        <input type="radio" name="날씨선택" value="select-snow">
+                    </label>    
+                </div>
+                <!--2. 날짜선택-->
+                <div class="filter_date">
+                    <input type="date">
+                </div>
+                <!--3. 테마선택-->
+                <div class="filter-weather filter-theme">
+                    <label class="filter-outside">
+                        <input type="radio" name="테마선택" value="select-outside"><span>실외</span>
+                    </label>
+                    <label class="filter-inside">
+                        <input type="radio" name="테마선택" value="select-inside"><span>실내</span>
+                    </label>
+                    <label class="filter-restaurant">
+                        <input type="radio" name="테마선택" value="select-restaurant"><span>맛집</span>
+                    </label>    
+                </div>
+                <!--4. 거리설정-->
+                <div class="filter-distance">
+                    <input type="range" list="distance-marks">
+                    <datalist id="distance-marks">
+                        <option value="0" label="0km"></option>
+                        <option value="10"></option>
+                        <option value="20"></option>
+                        <option value="30"></option>
+                        <option value="40"></option>
+                        <option value="50" label="50km"></option>
+                        <option value="60"></option>
+                        <option value="70"></option>
+                        <option value="80"></option>
+                        <option value="90"></option>
+                        <option value="100" label="100km"></option>
+                    </datalist>
+                    <div class="range-title">거리범위(단위:0km ~ 100km)</div>
+                </div>
+            </div>
+            <button class="popup_close">적용</button>
+    </div>
+
+    <!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=cd68821b39803aba30f85628fa7a0c98"></script> -->
+    <!-- <script>
+        window.onload = function() {
+     
+     function onClick() {
+         document.querySelector('.modal_wrap').style.display ='block';
+         document.querySelector('.black_bg').style.display ='block';
+         document.querySelector('.wrap').style.display ='none';
+     }   
+     function offClick() {
+         document.querySelector('.modal_wrap').style.display ='none';
+         document.querySelector('.black_bg').style.display ='none';
+     }
+  
+     document.getElementById('modal_btn').addEventListener('click', onClick);
+     document.querySelector('.modal_close').addEventListener('click', offClick);
+  
+ }
+    </script> -->
+</body>
