@@ -1,38 +1,153 @@
-.App {
+body {
+  height: 100vh;
+  background: "url('./img/sunny.jpg') no-repeat center";
+  background-size: cover;
+}
+
+header {
+  height: 90px;
+}
+
+#h-logo {
+  height: 90px;
+}
+#logo {
+  object-fit: contain;
+}
+
+.style-content{
+  padding-top: 20px;
+overflow: hidden;
+box-sizing: border-box;
+  padding-left:20px;
+}
+
+.detail-style-content{
+  padding-top: 20px;
+overflow: hidden;
+box-sizing: border-box;
+  padding-left:80px;
+}
+
+.nav-icon{
+  float:right;
+  margin-bottom:329px;
+}
+
+.icon-btn-list{
+  list-style:none;
+}
+
+.icon-btn-list img{
+  width: 26px;
+  height: 26px;
+  left: 5px;
+}
+
+.icon-btn{
+  display: inline-block;
+  width: 73px;
+  height: 37px;   
+  cursor:pointer;
+}
+
+.today-style {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.today-style div > img {
+  border-radius: 10px;
+  max-width: 100%;
+  display: block;
+  width: 230px;
+  height: 207px;
+}
+
+.today-style div {
+  margin: 10px;
+
+}
+
+.detail-today-style{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.detail-style-box{
+  width: 620px;
+  height: 330px;
   text-align: center;
+  /* padding-top: 10px;*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.detail-today-style img{
+  width: 600px;
+  height: 310px;
+  padding-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.style-link{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin-top: 20px;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.link-btn{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.link-btn img{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.right-content{
+  width:240px;
+}
+
+.style-temp-box {
+  display:inline-flex;
+  float:right;
+  width: 200px;
+  height: 90px;
+  text-align: center;
+  margin-top:auto;
+  /* padding-top: 10px; */
+}
+
+.temp-text {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+}
+
+.style-temp-box img {
+  float: left;
+  width: 37px;
+  padding-left: 10px;
+  padding-top: 22px;
+}
+
+#temperature {
+  font-weight: bold;
+  font-size: 17px;
+  padding-top: 15px;
+}
+
+#temp-feel {
+  margin-top: 12px;
 }
