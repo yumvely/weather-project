@@ -1,0 +1,46 @@
+.container {
+    margin : 0 auto;
+    max-width: 70rem;
+}
+
+.content-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.fortune-box {
+    width: 350px;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.fortune-text {
+    padding-top: 50px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fortune-title {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#fortune {
+    margin-top: 12px;
+}
+
+#fairy {
+    margin-left: 15px;
+}

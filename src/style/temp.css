@@ -1,0 +1,50 @@
+.container {
+    margin : 0 auto;
+    max-width: 70rem;
+}
+
+.content-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.temp-box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+}
+
+.temp {
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.temp-sensory {
+    margin-top: 11px;
+    font-size: 25px;
+}
+
+.temp-yest {
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.weather-text {
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.figure {
+    margin-top: 7px;
+    font-size: 15px;
+    font-weight: 1000;
+}
