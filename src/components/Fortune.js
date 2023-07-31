@@ -4,7 +4,6 @@ import '../style/fortune.css';
 class Fortune extends Component {
     render() {
         return (
-            <div className="container">
                 <div className="content-box">
                     <div className="aside">
                         <div className="box fortune-box">
@@ -18,7 +17,6 @@ class Fortune extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
         );
     }
 }

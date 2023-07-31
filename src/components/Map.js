@@ -4,11 +4,9 @@ import '../style/map.css';
 class Map extends Component {
     render() {
         return (
-            <div className="container">
-                <div className="main">
-                    <div id="map">
-                        MAP
-                    </div>
+            <div className="main">
+                <div id="map">
+                    MAP
                 </div>
             </div>
         );

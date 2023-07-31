@@ -4,7 +4,7 @@ import '../style/searchbar.css';
 class Searchbar extends Component {
     render() {
         return (
-                <div className="container">
+                <div>
                     <div id="location">
                         <span>서울시 강남구 논현동</span>
                     </div>

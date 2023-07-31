@@ -12,11 +12,19 @@ class App extends Component {
     return (
       <div className='App'>
         <Header></Header>
-        <Searchbar></Searchbar>
-        <Map></Map>
-        <Nav></Nav>
-        <Temp></Temp>
-        <Fortune></Fortune>
+        <div id = 'container'>
+          <Searchbar></Searchbar>
+          <div id="content-box">
+            <div id="main">
+              <Map></Map>
+              <Nav></Nav>
+            </div>
+            <div id="aside">
+              <Temp></Temp>
+              <Fortune></Fortune>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
